@@ -22,7 +22,7 @@ public class BaseClass {
 	public static WebDriver driver;
 	public static Properties properties;
 	private String userDirectory = System.getProperty("user.dir");
-	private String ppfile = ".\\src\\test\\resources\\ProjectData\\project.properties";
+	private String ppfile = ".\\src\\resource\\java\\project_properties\\project.properties";
 	private String pathtoPP = userDirectory + ppfile;
 	
 	public static Logger logger;
@@ -44,7 +44,7 @@ public class BaseClass {
 		}
 		
 		logger = Logger.getLogger("logger file");
-		PropertyConfigurator.configure(".\\src\\test\\resources\\ProjectData\\Log4j2.properties");
+		PropertyConfigurator.configure(".\\src\\resource\\java\\project_properties\\Log4j2.properties");
 		
 	}
 	public static String getBrowserName() {
