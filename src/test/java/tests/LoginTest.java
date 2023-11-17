@@ -1,27 +1,26 @@
 package tests;
 
-
-
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 
+import core.BaseClass;
 
 
-public class Annotations {
+
+public class LoginTest extends BaseClass {
 	
 	
 	@BeforeTest
 	public void beforeTest() {
 		System.out.println("it is before test");
-			
+			BaseClass.initializeDriver();
 	
 	
 	}
 	
-	// before hooks	in jUnit----	@Before
-	// and after hooks in Junit---- @After 
-	@Test
+	@Test(enabled=false)
 	public static void test1() {
 		System.out.println("it is test one");
 	
@@ -31,6 +30,7 @@ public class Annotations {
 		System.out.println("test2");
 	}
 	
+	@Ignore
 	@Test
 	public void test3() {
 		System.out.println("test3");
@@ -40,8 +40,7 @@ public class Annotations {
 	
 	@AfterTest
 	public void afterTest() {
-		System.out.println("it is after test");
-		// testing evn website
+		BaseClass.tearDown();
 	}
 	
 	
