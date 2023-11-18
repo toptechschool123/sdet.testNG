@@ -1,101 +1,80 @@
 package tests;
 
 
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.AfterGroups;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeGroups;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.BeforeTest;
 
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 
+import core.BaseClass;
 
 
-public class TestNG_Annotations {
 
-	@BeforeSuite
-	public void beforeSuite() {
-		System.out.println("it is before suite ");
+public class TestNG_Annotations extends BaseClass {
+	
+	
+	
+	/*
+	 * TestNG annotation
+	 * @BeforeTest
+	 * @Test
+	 * @AfterTest
+	 * 
+	 * @BeforeMethod
+	 * @AfterMethod
+	 * 
+	 * 
+	 * @BeforeClass
+	 * @AfterClass
+	 * 
+	 * @BeforeSuite
+	 * @AfterSuite
 
-	}
 
+	1: website
+	2:  test
+	3:  close test
+	 */
+	
+	
+	
 	@BeforeTest
 	public void beforeTest() {
-
+		
 		System.out.println("it is before test");
-
 	}
 
-	@BeforeGroups
-	public void beforeGroups() {
-
-		System.out.println("it is before groups method");
-	}
-
-	@BeforeClass
-	public void beforeClass() {
-
-	}
-	@BeforeMethod
-	public void beforeMethod() {
-
-		System.out.println("it is before method ");
-	}
-
-	@Test
-	public void login() {
-		System.out.println("it is login method");
-
-	}
-	@Test
-	public void test0() {
-		System.out.println("it is test zero");
-		System.out.println("it is test zero");
-	}
-	
-	@Test
+	@Test(enabled=false)
 	public void test1() {
-		System.out.println("it is test one");
+		System.out.println("it is test1");
+		System.out.println("it is test1");
+		System.out.println("it is test1");
+		
 	}
 	
+	@Ignore
 	@Test
 	public void test2() {
 		System.out.println("it is test 2");
 	}
-	@Test
-	public void failTest() {
-		
-	}
-
-	@AfterTest
-	public void afterTest() {
-		System.out.println("it is after method");
+	
+	@Test(invocationCount=2)
+	public void test3() {
+		System.out.println("it is test 3");	
+	}	
+	
+	@Test(description="it is not complete")	
+	public void test4() {
+		System.out.println("it is test 4");
 	}
 	
-	@AfterGroups
-	public void afterGroups() {
-		System.out.println("it is after groups method");
+	public void test5() {
+		System.out.println("it is test 5");
 	}
-	@AfterClass
-	public void afterClass() {
-		System.out.println("it is after class");
-	}
-
-	@AfterMethod
-	public void afterMethod() {
-
-		System.out.println("it is after method ");
-	}
-
-	@AfterSuite
-	public void afterSuite() {
-
-		System.out.println("it is after suite methodss");
-
-	}
+	@AfterTest
+	public void afterTest() {
+		
+		System.out.println("it is after test");
+}
 }

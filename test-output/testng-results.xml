@@ -1,25 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-17T10:56:34 PST" name="Default suite" finished-at="2023-11-17T10:56:46 PST" duration-ms="11355">
+  <suite started-at="2023-11-18T12:15:03 PST" name="Default suite" finished-at="2023-11-18T12:15:04 PST" duration-ms="206">
     <groups>
     </groups>
-    <test started-at="2023-11-17T10:56:34 PST" name="Default test" finished-at="2023-11-17T10:56:46 PST" duration-ms="11355">
-      <class name="tests.LoginTest">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.LoginTest@25748410]" started-at="2023-11-17T10:56:34 PST" name="beforeTest" finished-at="2023-11-17T10:56:45 PST" duration-ms="10578" status="PASS">
+    <test started-at="2023-11-18T12:15:03 PST" name="Default test" finished-at="2023-11-18T12:15:04 PST" duration-ms="206">
+      <class name="tests.TestNG_Annotations">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.TestNG_Annotations@5b04476e]" started-at="2023-11-18T12:15:03 PST" name="beforeTest" finished-at="2023-11-18T12:15:03 PST" duration-ms="21" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="test2()[pri:0, instance:tests.LoginTest@25748410]" started-at="2023-11-17T10:56:45 PST" name="test2" finished-at="2023-11-17T10:56:45 PST" duration-ms="9" status="PASS">
+        <test-method signature="test3()[pri:0, instance:tests.TestNG_Annotations@5b04476e]" started-at="2023-11-18T12:15:03 PST" name="test3" finished-at="2023-11-18T12:15:04 PST" duration-ms="24" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:tests.LoginTest@25748410]" started-at="2023-11-17T10:56:45 PST" name="afterTest" finished-at="2023-11-17T10:56:46 PST" duration-ms="701" status="PASS">
+        </test-method> <!-- test3 -->
+        <test-method signature="test3()[pri:0, instance:tests.TestNG_Annotations@5b04476e]" started-at="2023-11-18T12:15:04 PST" name="test3" finished-at="2023-11-18T12:15:04 PST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method signature="test4()[pri:0, instance:tests.TestNG_Annotations@5b04476e]" started-at="2023-11-18T12:15:04 PST" name="test4" description="it is not complete" finished-at="2023-11-18T12:15:04 PST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:tests.TestNG_Annotations@5b04476e]" started-at="2023-11-18T12:15:04 PST" name="afterTest" finished-at="2023-11-18T12:15:04 PST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- tests.LoginTest -->
+      </class> <!-- tests.TestNG_Annotations -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
