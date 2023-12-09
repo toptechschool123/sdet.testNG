@@ -63,7 +63,7 @@ public class Tests {
 	
 	// thread.sleep();
 	
-	@Test(timeOut=3000)
+	@Test(timeOut=3000, threadPoolSize=3)
 	public void test10() {
 		System.out.println("it is test 10");
 	// @AfterTest

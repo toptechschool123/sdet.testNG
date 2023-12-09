@@ -1,0 +1,6 @@
+tests\TestNG_Features.class
+tests\LoginTest.class
+tests\Tests.class
+tests\TestNG_Annotations.class
+tests\TestNG_Grouping.class
+pageObjects\LoginPageObjects.class

@@ -16,26 +16,11 @@ public class LoginTest extends BaseClass {
 	public void beforeTest() {
 		System.out.println("it is before test");
 			BaseClass.initializeDriver();
-	
-	
 	}
 	
-	@Test(enabled=false)
-	public static void test1() {
-		System.out.println("it is test one");
 	
-	}
-	@Test
-	public void test2() {
-		System.out.println("test2");
-	}
 	
-	@Ignore
-	@Test
-	public void test3() {
-		System.out.println("test3");
-	}
-	
+
 	
 	
 	@AfterTest

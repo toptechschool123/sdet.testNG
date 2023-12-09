@@ -1,0 +1,4 @@
+# Created at 2023-12-09T11:53:47.484
+
+tests.TestNG_Features.dependency() is depending on method public void tests.TestNG_Features.smoke(), which is not annotated with @Test or not included.
+

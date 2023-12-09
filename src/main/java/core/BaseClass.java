@@ -45,7 +45,7 @@ public class BaseClass {
 		
 		logger = Logger.getLogger("logger file");
 		PropertyConfigurator.configure(".\\src\\resource\\java\\project_properties\\Log4j2.properties");
-		
+											
 	}
 	public static String getBrowserName() {
 	String browserName = properties.getProperty("browser");
