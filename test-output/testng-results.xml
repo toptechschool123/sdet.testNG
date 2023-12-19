@@ -1,53 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-14T14:27:28 PST" name="Default suite" finished-at="2023-12-14T14:27:28 PST" duration-ms="132">
+  <suite started-at="2023-12-19T13:23:01 PST" name="Default suite" finished-at="2023-12-19T13:23:01 PST" duration-ms="248">
     <groups>
     </groups>
-    <test started-at="2023-12-14T14:27:28 PST" name="Default test" finished-at="2023-12-14T14:27:28 PST" duration-ms="132">
-      <class name="tests.TestNG_Annotations">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:tests.TestNG_Annotations@3b220bcb]" started-at="2023-12-14T14:27:28 PST" name="beforeSuite" finished-at="2023-12-14T14:27:28 PST" duration-ms="21" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.TestNG_Annotations@3b220bcb]" started-at="2023-12-14T14:27:28 PST" name="beforeTest" finished-at="2023-12-14T14:27:28 PST" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.TestNG_Annotations@3b220bcb]" started-at="2023-12-14T14:27:28 PST" name="beforeMethod" finished-at="2023-12-14T14:27:28 PST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="test1()[pri:0, instance:tests.TestNG_Annotations@3b220bcb]" started-at="2023-12-14T14:27:28 PST" name="test1" finished-at="2023-12-14T14:27:28 PST" duration-ms="12" status="PASS">
+    <test started-at="2023-12-19T13:23:01 PST" name="Default test" finished-at="2023-12-19T13:23:01 PST" duration-ms="248">
+      <class name="tests.Data_Provider">
+        <test-method signature="test1(java.lang.String,java.lang.String)[pri:0, instance:tests.Data_Provider@3f6db3fb]" started-at="2023-12-19T13:23:01 PST" name="test1" data-provider="testData" finished-at="2023-12-19T13:23:01 PST" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass1]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.TestNG_Annotations@3b220bcb]" started-at="2023-12-14T14:27:28 PST" name="afterMethod" finished-at="2023-12-14T14:27:28 PST" duration-ms="2" status="PASS">
+        <test-method signature="test1(java.lang.String,java.lang.String)[pri:0, instance:tests.Data_Provider@3f6db3fb]" started-at="2023-12-19T13:23:01 PST" name="test1" data-provider="testData" finished-at="2023-12-19T13:23:01 PST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass2]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.TestNG_Annotations@3b220bcb]" started-at="2023-12-14T14:27:28 PST" name="beforeMethod" finished-at="2023-12-14T14:27:28 PST" duration-ms="4" status="PASS">
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String)[pri:0, instance:tests.Data_Provider@3f6db3fb]" started-at="2023-12-19T13:23:01 PST" name="test1" data-provider="testData" finished-at="2023-12-19T13:23:01 PST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass3]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="test2()[pri:0, instance:tests.TestNG_Annotations@3b220bcb]" started-at="2023-12-14T14:27:28 PST" name="test2" finished-at="2023-12-14T14:27:28 PST" duration-ms="10" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.TestNG_Annotations@3b220bcb]" started-at="2023-12-14T14:27:28 PST" name="afterMethod" finished-at="2023-12-14T14:27:28 PST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:tests.TestNG_Annotations@3b220bcb]" started-at="2023-12-14T14:27:28 PST" name="afterTest" finished-at="2023-12-14T14:27:28 PST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:tests.TestNG_Annotations@3b220bcb]" started-at="2023-12-14T14:27:29 PST" name="afterSuite" finished-at="2023-12-14T14:27:29 PST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- tests.TestNG_Annotations -->
+        </test-method> <!-- test1 -->
+      </class> <!-- tests.Data_Provider -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

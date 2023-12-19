@@ -26,4 +26,10 @@ public class LoginTest extends BaseClass{
 		object.clickLogoutBttn();
 		
 	}
+	
+	
+	public void afterTest() {
+		
+		BaseClass.tearDown();
+	}
 }
