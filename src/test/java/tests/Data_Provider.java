@@ -21,8 +21,8 @@ public class Data_Provider {
 	
 	
 	
-	
-	// DataProvider
+	//Object  [][] num= { {"book", "pen", "pencil"} ,{4, 5, 6}};
+
 	
 	
 	@DataProvider(name="testData")
