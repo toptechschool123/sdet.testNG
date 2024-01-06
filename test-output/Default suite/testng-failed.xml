@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.Parallel_Testing">
+      <class name="tests.Assertions_Soft">
         <methods>
+          <include name="beforeTest"/>
           <include name="test1"/>
-          <include name="test2"/>
-          <include name="test4"/>
         </methods>
-      </class> <!-- tests.Parallel_Testing -->
+      </class> <!-- tests.Assertions_Soft -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
