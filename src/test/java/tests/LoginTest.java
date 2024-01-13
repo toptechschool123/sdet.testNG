@@ -1,11 +1,13 @@
 package tests;
 
 import org.testng.annotations.BeforeMethod;
+
 import org.testng.annotations.Test;
 
 import core.BaseClass;
 import pageObjects.LoginPageObjects;
 
+//@Listeners(utils.Listeners.class)
 public class LoginTest extends BaseClass{
 
 	LoginPageObjects object = new LoginPageObjects();

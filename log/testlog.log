@@ -1,2 +1,73 @@
 2023-12-16 11:23:19,810 - logger file -INFO - hi
 2023-12-16 11:27:03,466 - logger file -INFO - hi
+2024-01-13 10:50:33,456 - logger file -INFO - test execution startedorg.testng.TestRunner@5812f68b
+2024-01-13 10:50:40,324 - logger file -INFO - test1
+2024-01-13 10:50:40,369 - logger file -INFO - test failed
+2024-01-13 10:50:40,370 - logger file -INFO - method name : test1
+2024-01-13 10:50:40,403 - logger file -INFO - test2
+2024-01-13 10:50:40,429 - logger file -INFO - test passed successfully
+2024-01-13 10:50:40,430 - logger file -INFO - method name: test2
+2024-01-13 10:50:40,438 - logger file -INFO -  end of executionorg.testng.TestRunner@5812f68b
+2024-01-13 12:22:16,829 - logger file -INFO - test 2
+2024-01-13 12:29:40,895 - logger file -INFO - test 1
+2024-01-13 12:31:13,092 - logger file -INFO - test 1
+2024-01-13 12:31:13,189 - logger file -INFO - test 2
+2024-01-13 13:01:43,850 - logger file -INFO - test execution startedorg.testng.TestRunner@b2c5e07
+2024-01-13 13:01:51,053 - logger file -INFO - test1
+2024-01-13 13:01:52,234 - logger file -INFO - test 1
+2024-01-13 13:01:52,242 - logger file -INFO - test passed successfully
+2024-01-13 13:01:52,249 - logger file -INFO - method name: test1
+2024-01-13 13:01:52,274 - logger file -INFO - test2
+2024-01-13 13:01:52,338 - logger file -INFO - test 2
+2024-01-13 13:01:52,340 - logger file -INFO - test passed successfully
+2024-01-13 13:01:52,344 - logger file -INFO - method name: test2
+2024-01-13 13:01:52,358 - logger file -INFO -  end of executionorg.testng.TestRunner@b2c5e07
+2024-01-13 13:02:55,513 - logger file -INFO - test execution startedorg.testng.TestRunner@1608bcbd
+2024-01-13 13:03:05,070 - logger file -INFO - test1
+2024-01-13 13:03:05,153 - logger file -INFO - test failed
+2024-01-13 13:03:05,154 - logger file -INFO - method name : test1
+2024-01-13 13:03:05,179 - logger file -INFO - test2
+2024-01-13 13:03:05,229 - logger file -INFO - test passed successfully
+2024-01-13 13:03:05,230 - logger file -INFO - method name: test2
+2024-01-13 13:03:05,239 - logger file -INFO -  end of executionorg.testng.TestRunner@1608bcbd
+2024-01-13 13:05:54,676 - logger file -INFO - test execution startedorg.testng.TestRunner@1a20270e
+2024-01-13 13:06:04,735 - logger file -INFO - test
+2024-01-13 13:06:33,337 - logger file -INFO - test passed successfully
+2024-01-13 13:06:33,338 - logger file -INFO - method name: test
+2024-01-13 13:06:33,364 - logger file -INFO - test
+2024-01-13 13:06:38,222 - logger file -INFO - test passed successfully
+2024-01-13 13:06:38,223 - logger file -INFO - method name: test
+2024-01-13 13:06:39,109 - logger file -INFO -  end of executionorg.testng.TestRunner@1a20270e
+2024-01-13 13:10:13,655 - logger file -INFO - test execution startedorg.testng.TestRunner@53941c2f
+2024-01-13 13:10:52,261 - logger file -INFO - before test
+2024-01-13 13:10:53,700 - logger file -INFO - test
+2024-01-13 13:10:53,807 - logger file -INFO - data provider test
+2024-01-13 13:10:58,893 - logger file -INFO - test passed successfully
+2024-01-13 13:10:58,893 - logger file -INFO - method name: test
+2024-01-13 13:10:58,916 - logger file -INFO - test
+2024-01-13 13:10:58,941 - logger file -INFO - data provider test
+2024-01-13 13:11:03,610 - logger file -INFO - test passed successfully
+2024-01-13 13:11:03,611 - logger file -INFO - method name: test
+2024-01-13 13:11:03,619 - logger file -INFO - test2
+2024-01-13 13:11:03,627 - logger file -INFO - test failed
+2024-01-13 13:11:03,627 - logger file -INFO - method name : test2
+2024-01-13 13:11:04,355 - logger file -INFO - tear down
+2024-01-13 13:11:04,356 - logger file -INFO -  end of executionorg.testng.TestRunner@53941c2f
+2024-01-13 13:17:24,410 - logger file -INFO - test execution startedorg.testng.TestRunner@7e3181aa
+2024-01-13 13:18:02,375 - logger file -INFO - login
+2024-01-13 13:18:02,386 - logger file -INFO - test failed
+2024-01-13 13:18:02,389 - logger file -INFO - method name : login
+2024-01-13 13:18:02,409 - logger file -INFO -  end of executionorg.testng.TestRunner@7e3181aa
+2024-01-13 13:20:56,530 - logger file -INFO - test execution startedorg.testng.TestRunner@3f270e0a
+2024-01-13 13:21:17,089 - logger file -INFO - login
+2024-01-13 13:21:17,102 - logger file -INFO - test failed
+2024-01-13 13:21:17,103 - logger file -INFO - method name : login
+2024-01-13 13:21:17,234 - logger file -INFO -  end of executionorg.testng.TestRunner@3f270e0a
+2024-01-13 13:24:54,518 - logger file -INFO - test execution startedorg.testng.TestRunner@1608bcbd
+2024-01-13 13:25:05,580 - logger file -INFO - test1
+2024-01-13 13:25:05,620 - logger file -INFO - test failed
+2024-01-13 13:25:05,621 - logger file -INFO - method name : test1
+2024-01-13 13:25:05,701 - logger file -INFO - test2
+2024-01-13 13:25:05,753 - logger file -INFO - test passed successfully
+2024-01-13 13:25:05,754 - logger file -INFO - method name: test2
+2024-01-13 13:25:05,759 - logger file -INFO -  end of executionorg.testng.TestRunner@1608bcbd

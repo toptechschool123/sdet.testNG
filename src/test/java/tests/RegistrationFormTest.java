@@ -1,14 +1,17 @@
 package tests;
 
+import org.junit.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import core.BaseClass;
 import pageObjects.RegistrationFormPageObjects;
 import utils.ExcelUtility;
 
+@Listeners(utils.Listeners.class)
 public class RegistrationFormTest extends BaseClass {
 	
 	RegistrationFormPageObjects object ;
@@ -18,6 +21,7 @@ public class RegistrationFormTest extends BaseClass {
 	public void beforeTest() {
 		
 		BaseClass.initializeDriver();
+		logger.info("before test");
 	}
 	
 	//String fName, String lName, String phone, String email, String pass, String confpass
@@ -26,7 +30,7 @@ public class RegistrationFormTest extends BaseClass {
 	public void test(String fName, String lName, String phone, String email, String pass, String confpass) throws InterruptedException {
 		object = new RegistrationFormPageObjects();
 		
-		
+		logger.info("data provider test");
 		object.clickOnMyAccount();
 		object.clickRegister();
 		object.enterFirstName(fName);
@@ -51,9 +55,18 @@ public class RegistrationFormTest extends BaseClass {
 		
 	}
 	
+	@Test
+	public void test2() {
+		
+		System.out.println("h9i");
+		Assert.assertTrue(false);
+		logger.info("failed test");
+	}
 	@AfterTest
 	public void afterTest() {
 		BaseClass.tearDown();
+		
+		logger.info("tear down");
 	}
 
 }

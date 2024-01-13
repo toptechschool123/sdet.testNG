@@ -1,2 +1,73 @@
 2023-12-16 11:23:19,810 [main] INFO logger file - hi
 2023-12-16 11:27:03,466 [main] INFO logger file - hi
+2024-01-13 10:50:33,456 [main] INFO logger file - test execution startedorg.testng.TestRunner@5812f68b
+2024-01-13 10:50:40,324 [main] INFO logger file - test1
+2024-01-13 10:50:40,369 [main] INFO logger file - test failed
+2024-01-13 10:50:40,370 [main] INFO logger file - method name : test1
+2024-01-13 10:50:40,403 [main] INFO logger file - test2
+2024-01-13 10:50:40,429 [main] INFO logger file - test passed successfully
+2024-01-13 10:50:40,430 [main] INFO logger file - method name: test2
+2024-01-13 10:50:40,438 [main] INFO logger file -  end of executionorg.testng.TestRunner@5812f68b
+2024-01-13 12:22:16,829 [main] INFO logger file - test 2
+2024-01-13 12:29:40,895 [main] INFO logger file - test 1
+2024-01-13 12:31:13,092 [main] INFO logger file - test 1
+2024-01-13 12:31:13,189 [main] INFO logger file - test 2
+2024-01-13 13:01:43,850 [main] INFO logger file - test execution startedorg.testng.TestRunner@b2c5e07
+2024-01-13 13:01:51,053 [main] INFO logger file - test1
+2024-01-13 13:01:52,234 [main] INFO logger file - test 1
+2024-01-13 13:01:52,242 [main] INFO logger file - test passed successfully
+2024-01-13 13:01:52,249 [main] INFO logger file - method name: test1
+2024-01-13 13:01:52,274 [main] INFO logger file - test2
+2024-01-13 13:01:52,338 [main] INFO logger file - test 2
+2024-01-13 13:01:52,340 [main] INFO logger file - test passed successfully
+2024-01-13 13:01:52,344 [main] INFO logger file - method name: test2
+2024-01-13 13:01:52,358 [main] INFO logger file -  end of executionorg.testng.TestRunner@b2c5e07
+2024-01-13 13:02:55,513 [main] INFO logger file - test execution startedorg.testng.TestRunner@1608bcbd
+2024-01-13 13:03:05,070 [main] INFO logger file - test1
+2024-01-13 13:03:05,153 [main] INFO logger file - test failed
+2024-01-13 13:03:05,154 [main] INFO logger file - method name : test1
+2024-01-13 13:03:05,179 [main] INFO logger file - test2
+2024-01-13 13:03:05,229 [main] INFO logger file - test passed successfully
+2024-01-13 13:03:05,230 [main] INFO logger file - method name: test2
+2024-01-13 13:03:05,239 [main] INFO logger file -  end of executionorg.testng.TestRunner@1608bcbd
+2024-01-13 13:05:54,676 [main] INFO logger file - test execution startedorg.testng.TestRunner@1a20270e
+2024-01-13 13:06:04,735 [main] INFO logger file - test
+2024-01-13 13:06:33,337 [main] INFO logger file - test passed successfully
+2024-01-13 13:06:33,338 [main] INFO logger file - method name: test
+2024-01-13 13:06:33,364 [main] INFO logger file - test
+2024-01-13 13:06:38,222 [main] INFO logger file - test passed successfully
+2024-01-13 13:06:38,223 [main] INFO logger file - method name: test
+2024-01-13 13:06:39,109 [main] INFO logger file -  end of executionorg.testng.TestRunner@1a20270e
+2024-01-13 13:10:13,655 [main] INFO logger file - test execution startedorg.testng.TestRunner@53941c2f
+2024-01-13 13:10:52,261 [main] INFO logger file - before test
+2024-01-13 13:10:53,700 [main] INFO logger file - test
+2024-01-13 13:10:53,807 [main] INFO logger file - data provider test
+2024-01-13 13:10:58,893 [main] INFO logger file - test passed successfully
+2024-01-13 13:10:58,893 [main] INFO logger file - method name: test
+2024-01-13 13:10:58,916 [main] INFO logger file - test
+2024-01-13 13:10:58,941 [main] INFO logger file - data provider test
+2024-01-13 13:11:03,610 [main] INFO logger file - test passed successfully
+2024-01-13 13:11:03,611 [main] INFO logger file - method name: test
+2024-01-13 13:11:03,619 [main] INFO logger file - test2
+2024-01-13 13:11:03,627 [main] INFO logger file - test failed
+2024-01-13 13:11:03,627 [main] INFO logger file - method name : test2
+2024-01-13 13:11:04,355 [main] INFO logger file - tear down
+2024-01-13 13:11:04,356 [main] INFO logger file -  end of executionorg.testng.TestRunner@53941c2f
+2024-01-13 13:17:24,410 [main] INFO logger file - test execution startedorg.testng.TestRunner@7e3181aa
+2024-01-13 13:18:02,375 [main] INFO logger file - login
+2024-01-13 13:18:02,386 [main] INFO logger file - test failed
+2024-01-13 13:18:02,389 [main] INFO logger file - method name : login
+2024-01-13 13:18:02,409 [main] INFO logger file -  end of executionorg.testng.TestRunner@7e3181aa
+2024-01-13 13:20:56,530 [main] INFO logger file - test execution startedorg.testng.TestRunner@3f270e0a
+2024-01-13 13:21:17,089 [main] INFO logger file - login
+2024-01-13 13:21:17,102 [main] INFO logger file - test failed
+2024-01-13 13:21:17,103 [main] INFO logger file - method name : login
+2024-01-13 13:21:17,234 [main] INFO logger file -  end of executionorg.testng.TestRunner@3f270e0a
+2024-01-13 13:24:54,518 [main] INFO logger file - test execution startedorg.testng.TestRunner@1608bcbd
+2024-01-13 13:25:05,580 [main] INFO logger file - test1
+2024-01-13 13:25:05,620 [main] INFO logger file - test failed
+2024-01-13 13:25:05,621 [main] INFO logger file - method name : test1
+2024-01-13 13:25:05,701 [main] INFO logger file - test2
+2024-01-13 13:25:05,753 [main] INFO logger file - test passed successfully
+2024-01-13 13:25:05,754 [main] INFO logger file - method name: test2
+2024-01-13 13:25:05,759 [main] INFO logger file -  end of executionorg.testng.TestRunner@1608bcbd

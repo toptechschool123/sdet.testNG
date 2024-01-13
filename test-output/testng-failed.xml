@@ -5,8 +5,8 @@
     <classes>
       <class name="tests.Assertions_Soft">
         <methods>
-          <include name="beforeTest"/>
           <include name="test1"/>
+          <include name="beforeTest"/>
         </methods>
       </class> <!-- tests.Assertions_Soft -->
     </classes>

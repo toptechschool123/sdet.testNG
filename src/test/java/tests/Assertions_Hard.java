@@ -8,11 +8,13 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+import core.BaseClass;
 import io.github.bonigarcia.wdm.WebDriverManager;
-
-public class Assertions_Hard {
+@Listeners(utils.Listeners.class)
+public class Assertions_Hard extends BaseClass{
 
 	public WebDriver driver;
 
@@ -23,11 +25,10 @@ public class Assertions_Hard {
 
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--remote-allow-origins=*");
-
 		driver = new ChromeDriver(options);
 
 		driver.get("https://mvnrepository.com/");
-
+		
 	}
 
 	@Test
@@ -37,11 +38,11 @@ public class Assertions_Hard {
 
 	//	System.out.println(Actual_title);
 		
-		String expected_title = "Maven Repository: Search/Browse/Explore3";
+		String expected_title = "Maven Repository: Search/Browse/Explore";
 		
 		Assert.assertEquals(Actual_title, expected_title);
 		
-		
+		logger.info("test 1");
 		
 		System.out.println("it is assertion example");
 		System.out.println("it is assertion example");
@@ -57,6 +58,8 @@ public class Assertions_Hard {
 		
 		System.out.println("it is hard assertion example");
 		System.out.println("it is hard assertion example");
+		
+		logger.info("test 2");
 	}
 
 	public void afterTest() {

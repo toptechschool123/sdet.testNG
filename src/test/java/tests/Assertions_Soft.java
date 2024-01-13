@@ -5,11 +5,13 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
+@Listeners(utils.Listeners.class)
 public class Assertions_Soft {
 	
 	
@@ -51,7 +53,7 @@ public class Assertions_Soft {
 		softassert.assertAll();
 	}
 
-	
+	@Test
 	public void test2() {
 		
 		String Actual_title = driver.getTitle();
